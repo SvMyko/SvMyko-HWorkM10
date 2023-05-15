@@ -87,10 +87,10 @@ class AddressBook(UserDict):
 def main():
     address_book = AddressBook()
     # record_class = Record()
-    field_input = Field()
+
     print("How can I help you?")
     while True:
-        user_input = ask_for_value
+        user_input = Field()
         if user_input == "hello":
             print("How can I help you?")
         elif user_input.startswith("add"):
