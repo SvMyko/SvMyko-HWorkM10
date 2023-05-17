@@ -73,7 +73,7 @@ class AddressBook(UserDict):
     def __str__(self):
         return  "\n".join(f"{name}: {record}" for name, record in self.data.items())
 
-# FIXME
+
 def main():
     address_book = AddressBook()
 
